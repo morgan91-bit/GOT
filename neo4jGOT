@@ -8,12 +8,12 @@ Tyrell 6
 
 
 //Create People
- CREATE (:Person {name:"Stannis Baratheon" });  //1
- CREATE (:Person {name: "Steffon Baratheon" }); //2
- CREATE (:Person {name:"Tommen Baratheon" }); //3
- CREATE (:Person {name: "Joffrey Baratheon" }); //4
- CREATE (:Person {name: "Myrcella Baratheon" }); //5
- CREATE (:Person {name: "Shireen Baratheon"}); //6
+ CREATE (:Person {name:"Stannis Baratheon" }); 
+ CREATE (:Person {name: "Steffon Baratheon" });
+ CREATE (:Person {name:"Tommen Baratheon" }); 
+ CREATE (:Person {name: "Joffrey Baratheon" }); 
+ CREATE (:Person {name: "Myrcella Baratheon" }); 
+ CREATE (:Person {name: "Shireen Baratheon"}); 
 
 
   CREATE (:Person {name: "Euron Greyjoy" }); 
@@ -30,19 +30,19 @@ Tyrell 6
 
 
 
-CREATE (:Person {name: "Cersei Lannister" }); //1
-CREATE (:Person {name: "Jaime Lannister" }); //2
-CREATE (:Person {name: "Tyrion Lannister" }); //3
-CREATE (:Person {name: "Tywin Lannister" }); //4
-CREATE (:Person {name: "Kevan Lannister" }); 5
-CREATE (:Person {name: "Lancel Lannister" });6
-CREATE (:Person {name: "Willem Lannister" });7
-CREATE (:Person {name: "Martyn Lannister" });8
-CREATE (:Person {name: "Janei Lannister" });9
-CREATE (:Person {name: "Tygett Lannister" });10
-CREATE (:Person {name: "Tyrek Lannister" });11
-CREATE (:Person {name: "Gerion Lannister" });12
-CREATE (:Person {name: "Genna Lannister" });13
+CREATE (:Person {name: "Cersei Lannister" }); 
+CREATE (:Person {name: "Jaime Lannister" }); 
+CREATE (:Person {name: "Tyrion Lannister" }); 
+CREATE (:Person {name: "Tywin Lannister" });
+CREATE (:Person {name: "Kevan Lannister" }); 
+CREATE (:Person {name: "Lancel Lannister" });
+CREATE (:Person {name: "Willem Lannister" });
+CREATE (:Person {name: "Martyn Lannister" });
+CREATE (:Person {name: "Janei Lannister" });
+CREATE (:Person {name: "Tygett Lannister" });
+CREATE (:Person {name: "Tyrek Lannister" });
+CREATE (:Person {name: "Gerion Lannister" });
+CREATE (:Person {name: "Genna Lannister" });
 
         
   CREATE (:Person {name: "Emmon Frey" });
