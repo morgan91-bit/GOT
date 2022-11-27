@@ -1,0 +1,66 @@
+//Houses
+Baratheon 6
+Greyjoy 11
+Lanister 13
+Frey 7
+Tyrell 6
+
+
+
+//Create People
+ CREATE (:Person {name:"Stannis Baratheon" });
+ CREATE (:Person {name: "Steffon Baratheon" });
+ CREATE (:Person {name:"Tommen Baratheon" });
+ CREATE (:Person {name: "Joffrey Baratheon" });
+ CREATE (:Person {name: "Myrcella Baratheon" });
+ CREATE (:Person {name: "Shireen Baratheon"});
+
+
+  CREATE (:Person {name: "Euron Greyjoy" });
+  CREATE (:Person {name: "Balon Greyjoy" });
+  CREATE (:Person {name: "Rodrik Greyjoy" });
+  CREATE (:Person {name: "Maron Greyjoy" });
+  CREATE (:Person {name: "Asha Greyjoy" });
+  CREATE (:Person {name: "Theon Greyjoy" });
+  CREATE (:Person {name: "Victarion Greyjoy" });
+  CREATE (:Person {name: "Aeron Greyjoy" });
+  CREATE (:Person {name: "Quenton Greyjoy" });
+  CREATE (:Person {name: "Dagon Greyjoy"});
+  CREATE (:Person {name: "Alannys Greyjoy" });
+
+
+
+CREATE (:Person {name: "Cersei Lannister" });
+CREATE (:Person {name: "Jaime Lannister" });
+CREATE (:Person {name: "Tyrion Lannister" });
+CREATE (:Person {name: "Tywin Lannister" });
+CREATE (:Person {name: "Kevan Lannister" });
+CREATE (:Person {name: "Lancel Lannister" });
+CREATE (:Person {name: "Willem Lannister" });
+CREATE (:Person {name: "Martyn Lannister" });
+CREATE (:Person {name: "Janei Lannister" });
+CREATE (:Person {name: "Tygett Lannister" });
+CREATE (:Person {name: "Tyrek Lannister" });
+CREATE (:Person {name: "Gerion Lannister" });
+CREATE (:Person {name: "Genna Lannister" });
+
+        
+  CREATE (:Person {name: "Emmon Frey" });
+  CREATE (:Person {name: "Tywin Frey" });
+  CREATE (:Person {name: "Willem Frey" });
+  CREATE (:Person {name: "Lyonel Frey" });
+  CREATE (:Person {name: "Tion Frey" });
+  CREATE (:Person {name: "Red Walder Frey" });
+  CREATE (:Person {name: "Cleos Frey" });
+       
+  CREATE (:Person {name: "Mace Tyrell" });
+  CREATE (:Person {name: "Loras Tyrell" });
+  CREATE (:Person {name: "Margaery Tyrell" });
+  CREATE (:Person {name: "Alla Tyrell" });
+  CREATE (:Person {name: "Elinor Tyrell" });
+  CREATE (:Person {name: "Megga Tyrell" });
+    
+
+
+        
+        
