@@ -1,6 +1,6 @@
 
 
-
+----Done
 
 match(p1:Person), (p2:Person)
 where p1.name = ‘Mace Tyrell’ and p2.name=‘Loras Tyrell’
@@ -27,7 +27,7 @@ create (p1) – [relative:RELATIVE] -> (p2)
 
 
 
-
+---Done
 match(p1:Person), (p2:Person)
 where p1.name = ‘Loras Tyrell’ and p2.name=‘Mace Tyrell’
 create (p1) – [relative:RELATIVE] -> (p2)
