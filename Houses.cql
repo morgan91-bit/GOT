@@ -37,6 +37,9 @@ match(h:HOUSE), (p:Person)
 where h.name = "Baratheon" and p.name="Shireen Baratheon"
 create (p) – [house:FAMLIY_HOUSE] -> (h)
 
+match(h:HOUSE), (p:Person)
+where h.name = "Baratheon" and p.name="Selyse Baratheon"
+create (p) – [house:FAMLIY_HOUSE] -> (h)
 
 
 
@@ -162,7 +165,7 @@ where h.name = "Frey" and p.name="Tion Frey"
 create (p) – [house:FAMLIY_HOUSE] -> (h)
 
 match(h:HOUSE), (p:Person)
-where h.name = "Frey" and p.name="Red Walder Frey"
+where h.name = "Frey" and p.name="Walder Frey"
 create (p) – [house:FAMLIY_HOUSE] -> (h)
 
 match(h:HOUSE), (p:Person)
@@ -201,6 +204,8 @@ create (p) – [house:FAMLIY_HOUSE] -> (h)
 match(h:HOUSE), (p:Person)
 where h.name = "Tyrell" and p.name="Megga Tyrell"
 create (p) – [house:FAMLIY_HOUSE] -> (h)
+
+
 
 Baratheon 6
 Greyjoy 11
