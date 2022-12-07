@@ -1,6 +1,6 @@
 CREATE (:HOUSE {name:"Baratheon" });
 CREATE (:HOUSE {name:"Greyjoy" });
-CREATE (:HOUSE {name:"Lanister" });
+CREATE (:HOUSE {name:"Lannister" });
 CREATE (:HOUSE {name:"Frey" });
 CREATE (:HOUSE {name:"Tyrell" });
 match(n)return(n)
@@ -169,8 +169,15 @@ match(h:HOUSE), (p:Person)
 where h.name = "Frey" and p.name="Cleos Frey"
 create (p) – [house:FAMLIY_HOUSE] -> (h)
 
+match(h:HOUSE), (p:Person)
+where h.name = "Frey" and p.name="Tywin Frey"
+create (p) – [house:FAMLIY_HOUSE] -> (h)
+
  /////TYRELL
- 
+ match(h:HOUSE), (p:Person)
+where h.name = "Tyrell" and p.name="Alla Tyrell"
+create (p) – [house:FAMLIY_HOUSE] -> (h)
+
 match(h:HOUSE), (p:Person)
 where h.name = "Tyrell" and p.name="Mace Tyrell"
 create (p) – [house:FAMLIY_HOUSE] -> (h)
