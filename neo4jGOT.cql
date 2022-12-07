@@ -8,57 +8,57 @@ Tyrell 6
 
 
 //Create People
- CREATE (:Person {name:"Stannis Baratheon" }); 
- CREATE (:Person {name: "Steffon Baratheon" });
- CREATE (:Person {name:"Tommen Baratheon" }); 
- CREATE (:Person {name: "Joffrey Baratheon" }); 
- CREATE (:Person {name: "Myrcella Baratheon" }); 
- CREATE (:Person {name: "Shireen Baratheon"}); 
+ CREATE (:Person {name:"Stannis Baratheon", location: "Stromlands" }); 
+ CREATE (:Person {name: "Steffon Baratheon", location: "Stromlands" });
+ CREATE (:Person {name:"Tommen Baratheon", location: "Stromlands" }); 
+ CREATE (:Person {name: "Joffrey Baratheon", location: "Stromlands" }); 
+ CREATE (:Person {name: "Myrcella Baratheon", location: "Stromlands"}); 
+ CREATE (:Person {name: "Shireen Baratheon", location: "Stromlands"}); 
 
 
-  CREATE (:Person {name: "Euron Greyjoy" }); 
-  CREATE (:Person {name: "Balon Greyjoy" });
-  CREATE (:Person {name: "Rodrik Greyjoy" });
-  CREATE (:Person {name: "Maron Greyjoy" });
-  CREATE (:Person {name: "Asha Greyjoy" });
-  CREATE (:Person {name: "Theon Greyjoy" });
-  CREATE (:Person {name: "Victarion Greyjoy" });
-  CREATE (:Person {name: "Aeron Greyjoy" });
-  CREATE (:Person {name: "Quenton Greyjoy" });
-  CREATE (:Person {name: "Dagon Greyjoy"});
-  CREATE (:Person {name: "Alannys Greyjoy" });
+  CREATE (:Person {name: "Euron Greyjoy", location: "Iron Islands", alive:false}); 
+  CREATE (:Person {name: "Balon Greyjoy", location: "Iron Islands", alive:false});
+  CREATE (:Person {name: "Rodrik Greyjoy", location: "Iron Islands", alive:false});
+  CREATE (:Person {name: "Maron Greyjoy", location: "Iron Islands", alive:false});
+  CREATE (:Person {name: "Asha Greyjoy", location: "Iron Islands"});
+  CREATE (:Person {name: "Theon Greyjoy", location: "Iron Islands", alive:false});
+  CREATE (:Person {name: "Victarion Greyjoy", location: "Iron Islands" });
+  CREATE (:Person {name: "Aeron Greyjoy", location: "Iron Islands" });
+  CREATE (:Person {name: "Quenton Greyjoy", location: "Iron Islands" });
+  CREATE (:Person {name: "Dagon Greyjoy", location: "Iron Islands"});
+  CREATE (:Person {name: "Alannys Greyjoy", location: "Iron Islands" });
 
 
 
-CREATE (:Person {name: "Cersei Lannister" }); 
-CREATE (:Person {name: "Jaime Lannister" }); 
-CREATE (:Person {name: "Tyrion Lannister" }); 
-CREATE (:Person {name: "Tywin Lannister" });
-CREATE (:Person {name: "Kevan Lannister" }); 
-CREATE (:Person {name: "Lancel Lannister" });
-CREATE (:Person {name: "Willem Lannister" });
-CREATE (:Person {name: "Martyn Lannister" });
-CREATE (:Person {name: "Janei Lannister" });
-CREATE (:Person {name: "Tygett Lannister" });
-CREATE (:Person {name: "Tyrek Lannister" });
-CREATE (:Person {name: "Gerion Lannister" });
-CREATE (:Person {name: "Genna Lannister" });
+CREATE (:Person {name: "Cersei Lannister", location: "Westerlands" }); 
+CREATE (:Person {name: "Jaime Lannister", location: "Westerlands" }); 
+CREATE (:Person {name: "Tyrion Lannister", location: "Westerlands"}); 
+CREATE (:Person {name: "Tywin Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Kevan Lannister", location: "Westerlands" }); 
+CREATE (:Person {name: "Lancel Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Willem Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Martyn Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Janei Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Tygett Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Tyrek Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Gerion Lannister", location: "Westerlands" });
+CREATE (:Person {name: "Genna Lannister", location: "Westerlands" });
 
         
-  CREATE (:Person {name: "Emmon Frey" });
-  CREATE (:Person {name: "Tywin Frey" });
-  CREATE (:Person {name: "Willem Frey" });
-  CREATE (:Person {name: "Lyonel Frey" });
-  CREATE (:Person {name: "Tion Frey" });
-  CREATE (:Person {name: "Red Walder Frey" });
-  CREATE (:Person {name: "Cleos Frey" });
+  CREATE (:Person {name: "Emmon Frey", location: "Riverlands" });
+  CREATE (:Person {name: "Tywin Frey", location: "Riverlands"});
+  CREATE (:Person {name: "Willem Frey", location: "Riverlands"});
+  CREATE (:Person {name: "Lyonel Frey", location: "Riverlands" });
+  CREATE (:Person {name: "Tion Frey", location: "Riverlands" });
+  CREATE (:Person {name: "Walder Frey", location: "Riverlands", alive:false });
+  CREATE (:Person {name: "Cleos Frey", location: "Riverlands" });
        
-  CREATE (:Person {name: "Mace Tyrell" });
-  CREATE (:Person {name: "Loras Tyrell" });
-  CREATE (:Person {name: "Margaery Tyrell" });
-  CREATE (:Person {name: "Alla Tyrell" });
-  CREATE (:Person {name: "Elinor Tyrell" });
-  CREATE (:Person {name: "Megga Tyrell" });
+  CREATE (:Person {name: "Mace Tyrell", location: "Reach", alive:false});
+  CREATE (:Person {name: "Loras Tyrell" location: "Reach" });
+  CREATE (:Person {name: "Margaery Tyrell", location: "Reach" });
+  CREATE (:Person {name: "Alla Tyrell", location: "Reach" });
+  CREATE (:Person {name: "Elinor Tyrell", location: "Reach" });
+  CREATE (:Person {name: "Megga Tyrell", location: "Reach" });
     
 
 
