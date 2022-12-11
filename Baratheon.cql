@@ -153,6 +153,29 @@ create (p1) – [relative:RELATIVE] -> (p2)
 
 
 
+match(p1:Person), (p2:Person)
+where p1.name = "Robert Baratheon" and p2.name="Steffon Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Robert Baratheon" and p2.name="Tommen Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Robert Baratheon" and p2.name="Joffrey Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Robert Baratheon" and p2.name="Myrcella Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Robert Baratheon" and p2.name="Shireen Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Robert Baratheon" and p2.name="Stannis Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
 
 
 
@@ -161,9 +184,33 @@ create (p1) – [relative:RELATIVE] -> (p2)
 
 
 
+//adding
+match(p1:Person), (p2:Person)
+where p1.name = "Shireen Baratheon" and p2.name="Robert Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
 
 
 
+match(p1:Person), (p2:Person)
+where p1.name = "Myrcella Baratheon" and p2.name="Robert Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Joffrey Baratheon" and p2.name="Robert Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Tommen Baratheon" and p2.name="Robert Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+
+match(p1:Person), (p2:Person)
+where p1.name = "Steffon Baratheon" and p2.name="Robert Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
+
+match(p1:Person), (p2:Person)
+where p1.name = "Stannis Baratheon" and p2.name="Robert Baratheon"
+create (p1) – [relative:RELATIVE] -> (p2)
 
 
 
