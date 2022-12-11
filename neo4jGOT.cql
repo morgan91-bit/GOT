@@ -1,5 +1,5 @@
 //Houses
-Baratheon 6
+Baratheon 7
 Greyjoy 11
 Lanister 13
 Frey 7
@@ -15,6 +15,7 @@ Tyrell 6
  CREATE (:Person {name: "Myrcella Baratheon", location: "Stromlands"}); 
  CREATE (:Person {name: "Shireen Baratheon", location: "Stromlands"}); 
   CREATE (:Person {name: "Selyse Baratheon", location: "Stromlands"});
+  CREATE (:Person {name: "Robert Baratheon", location: "Stromlands"});
 
 
   CREATE (:Person {name: "Euron Greyjoy", location: "Iron Islands", alive:false}); 
